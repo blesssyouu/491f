@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang = "en-US">
+  <style>
+    .fancy {
+      background-color: rgb(63, 21, 110);
+      color: white;
+      margin: 20px;
+      padding: 20px;
+    }
+    #boss{
+      color: red;
+    }
+    li{
+      color:salmon;
+    }
+    [href]{
+      color:snow;
+    }
+    ol[type="2"] li{
+      color: blue;
+    }
+    h4.favorite{
+      color: yellow;
+    }
+    header, footer{
+      background-color: aqua;
+    }
+    ol > li {
+      background-color: darkolivegreen;
+    }
+    footer{
+      padding: 10px;
+      border: 5px solid gray;
+      margin: 0;
+    }
+    </style>
+  <body style="background-color:powderblue;">
+    <header style="text-align:center;">Hello! Hello!</header>
+    <nav id="menu" align = "middle" >
+      <a href="https://dontstarve.fandom.com/wiki/Mobs">MOBS</a> | 
+      <a href="https://dontstarve.fandom.com/wiki/Category:Boss_Monsters">BOSSES</a> | 
+      <a href="https://dontstarve.fandom.com/wiki/Seafaring_Tab">SAILING</a>
+    </nav>
+    <h1>Examples of certain things I can do in html:</h1>
+    <h2 id="myImages">Images</h2>
+      <img src="https://www.schemecolor.com/wallpaper?i=31150&desktop" alt="purple gradient" width="500" height="142">
+      <img src="https://cdn.britannica.com/36/82536-050-7E968918/Shasta-daisies.jpg" alt="daisies" width="250" height="142">
+    <h3 id="mobs">Mobs</h3>
+      <div class="fancy">
+        <ul type="square">
+          <li>Cookie cutter</li>
+          <li>Beefalo</li>
+          <li>Glommer</li>
+          <li>Chester</li>
+        </ul>
+      </div>
+    
+    <h4 id="boss">Bosses to fight</h4>
+      <ol type="1">
+        <li>Deerclops</li>
+        <li>Bee Queen</li>
+        <li>Lord of the Fruit Flies</li>
+        <li>Bearger</li>
+      </ol>
+
+      <h4 class="favorite">Recipes</h4>
+      <ol type="2">
+        <li>Buttermuffin</li>
+        <li>Pierogi</li>
+        <li>Meatballs</li>
+        <li>BeefyLeaf</li>
+      </ol>
+
+    <h5>Hyperlinks</h5>
+    <a href="https://github.com/Alyssia-Chen">This is a link to my github</a>
+    <h6>Inline decorations</h6>
+    <p>When sailing, don't forget to pull the anchor up <span style="color:green">to go</span>
+      or put the anchor down <span style = "color:red">to stop</span></p>
+      <table border="1" bordercolor="purple" bgcolor="purple">
+        <tr>
+          <th>To Go</th>
+          <th>To Stop</th>
+        </tr>
+        <tr>
+          <td>Pull anchor up</td>
+          <td>Put anchor down</td>
+        </tr>
+      </table>
+    <footer style="text-align:center;">Goodbye! Goodbye!</footer>
+  </body>
+</html>
