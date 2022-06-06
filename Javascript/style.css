@@ -1,0 +1,95 @@
+/* Background */
+body {
+    color: black;
+    background: lightpink url("page1.gif") repeat fixed center;
+  }
+ 
+
+/* Header Color */
+  h1 {
+    color: black;
+  }
+
+
+/* Class */
+  p.ex1 {
+    color: red;
+  }
+  p.ex2 {
+    color: orange;
+  }
+  p.ex3 {
+    color: pink;
+  }
+  p.ex4 {
+    color: green;
+  }
+  p.ex5 {
+    color: blue;
+  }
+  p.ex6 {
+    color: purple;
+  }
+  
+
+/* ID */
+  #like1 {color: orange;}
+  #like2 {color: red;}
+  #like3 {color: pink;}
+  #like4 {color: green;}
+  #like5 {color: blue;}
+  #like6 {color: purple;}
+
+
+  /* Element 
+  .hate {
+      color: gray;
+      background-color: white;
+      width: 50%;
+  }*/
+  .ex3 {
+      color: pink
+  }
+
+
+  /* Attribute-Name */
+[attribute-name]{
+    color: maroon
+}
+
+
+[attribute-name1]{
+    color: blueviolet
+}
+
+
+  /* Attribute-Value */
+[attribute-name="attribute-value"]{
+    color: aqua
+}
+
+
+[attribute-name="attribute-value2"]{
+    color: mediumaquamarine
+}
+
+
+/* Compounding Selectors */
+#like3.ex3 {color: pink}
+
+
+/* Selector & Box Model*/
+th, tr, td {
+  background-color: white;
+  margin: 5px;
+  width: 50%;
+  border: solid 10px cornsilk;
+  padding: 10px;
+}
+li, p {
+  background-color: white;
+  margin: 1px;
+  width: 50%;
+  border: solid 3px white;
+  padding: 2px;
+}
