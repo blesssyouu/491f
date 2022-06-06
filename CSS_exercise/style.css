@@ -1,1 +1,80 @@
+/* Background */
+body {
+    color: black;
+    background: lightpink repeat fixed center;
+  }
 
+
+/* Header Color */
+  h1 {
+    color: black;
+  }
+
+
+/* Class */
+  p.ex1 {
+    color: blue;
+  }
+  p.ex2 {
+    color: black;
+  }
+  p.ex3 {
+    color: red;
+  }
+  p.ex4 {
+    color: purple;
+  }
+  
+
+/* ID */
+  #like1 {color: blue;}
+  #like2 {color: black;}
+  #like3 {color: red;}
+  #like4 {color: purple;}
+
+  .ex3 {
+      color: red
+  }
+
+
+  /* Attribute-Name */
+[attribute-name]{
+    color: maroon
+}
+
+
+[attribute-name1]{
+    color: blueviolet
+}
+
+
+  /* Attribute-Value */
+[attribute-name="attribute-value"]{
+    color: aqua
+}
+
+
+[attribute-name="attribute-value2"]{
+    color: mediumaquamarine
+}
+
+
+/* Compounding Selectors */
+#like3.ex3 {color: pink}
+
+
+/* Selector & Box Model*/
+th, tr, td {
+  background-color: white;
+  margin: 5px;
+  width: 50%;
+  border: solid 10px cornsilk;
+  padding: 10px;
+}
+li, p {
+  background-color: white;
+  margin: 1px;
+  width: 50%;
+  border: solid 3px rgb(167, 255, 211);
+  padding: 2px;
+}
