@@ -13,42 +13,28 @@ body {
 
 /* Class */
   p.ex1 {
-    color: red;
-  }
-  p.ex2 {
-    color: orange;
-  }
-  p.ex3 {
-    color: pink;
-  }
-  p.ex4 {
-    color: green;
-  }
-  p.ex5 {
     color: blue;
   }
-  p.ex6 {
+  p.ex2 {
+    color: black;
+  }
+  p.ex3 {
+    color: red;
+  }
+  p.ex4 {
     color: purple;
   }
   
 
 /* ID */
-  #like1 {color: orange;}
-  #like2 {color: red;}
-  #like3 {color: pink;}
-  #like4 {color: green;}
-  #like5 {color: blue;}
-  #like6 {color: purple;}
+  #like1 {color: blue;}
+  #like2 {color: black;}
+  #like3 {color: red;}
+  #like4 {color: purple;}
 
 
-  /* Element 
-  .hate {
-      color: gray;
-      background-color: white;
-      width: 50%;
-  }*/
   .ex3 {
-      color: pink
+      color: red
   }
 
 
