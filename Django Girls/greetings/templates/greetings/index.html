@@ -1,0 +1,27 @@
+<nav>
+    <ul>
+        <li>
+            <form class="logout-link" action="{% url 'accounts:logout'%}" method="post">
+                {% csrf_token%}
+                <button type="submit">Logout</button>
+            </form>
+        </li>
+    </ul>
+</nav>
+<h1>Your greetings:</h1>
+{% if greeting_list %}
+    <ul type="square">
+    {% for greeting in greeting_list %}
+        <li>
+          {{ greeting.message }}
+          <span><a href="{% url 'greetings:update' greeting.id %}">edit</a></span>
+          <span><a href="{% url 'greetings:delete' greeting.id %}">delete</a></span>
+        </li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No greetings are available.</p>
+{% endif %}
+<a href="{% url 'greetings:create' %}">Create a New Greeting</a>
+<br>
+<a href="{% url 'greetings:examples' %}">See some example greetings for inspiration</a>
